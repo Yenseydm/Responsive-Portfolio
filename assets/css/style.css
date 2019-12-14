@@ -195,7 +195,7 @@ input[type=text], select, textarea {
 
 .column {
     float: left;
-    width: 33.3%;
+    width: 50%;
     margin-right: 50px;
     padding-bottom: 30px;
 }
@@ -206,15 +206,68 @@ input[type=text], select, textarea {
     clear: both;
 }
 
+/*media query */
+
 @media screen and (max-width: 980px) {
 
+    #links{
+        margin-right: 30px;
+    }
 
 }
  
 @media screen and (max-width: 768px){
+ 
+    .wrapper {
+     width: 740px;
+    }
+    #links{
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-top:20px;
+    }
 
+    form{
+        width: 750px;
+    }
+    
+    .box{
+        width: 600px;
+    }
+
+    .column {
+        padding-right: 50px;
+    }
 }
 
 @media screen and (max-width: 640px){
+    .wrapper {
+     width: 600px;
+    }
+ 
+    #name{
+        width: 100%;
+        margin-top: 0;
+        height: 50px;
+        line-height: 50px;
+        position: absolute;
+    }
+
+    .nav{
+       padding-left: 0;
+    }
+
+    #links{
+        line-height: 80px;
+        float: none;
+    }
     
+    form{
+        width: 500px;
+    }
+
+    .box{
+        width: 400px;
+    }
+
 }
