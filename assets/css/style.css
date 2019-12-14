@@ -195,7 +195,7 @@ input[type=text], select, textarea {
 
 .column {
     float: left;
-    width: 50%;
+    width: 33.3%;
     margin-right: 50px;
     padding-bottom: 30px;
 }
@@ -233,16 +233,19 @@ input[type=text], select, textarea {
     
     .box{
         width: 600px;
+        margin-right: 80px;
     }
 
     .column {
         padding-right: 50px;
+        width: 50%;
     }
 }
 
 @media screen and (max-width: 640px){
     .wrapper {
      width: 600px;
+     
     }
  
     #name{
@@ -255,6 +258,7 @@ input[type=text], select, textarea {
 
     .nav{
        padding-left: 0;
+       
     }
 
     #links{
@@ -268,6 +272,12 @@ input[type=text], select, textarea {
 
     .box{
         width: 400px;
+        margin-right: 130px;
+    }
+
+    .column{
+        padding-bottom: 0px;
+        margin-top: 0px;
     }
 
 }
